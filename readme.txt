@@ -1,4 +1,1 @@
-saying hello
-Well, now I should track changes with git
-
-Arrrrrrrrrgh
+Hi, this is the Git and Node exercise.  
