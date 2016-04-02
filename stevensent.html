@@ -1,0 +1,169 @@
+<!DOCType html>
+<html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js" />
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvbXtDo5gyBJcv7aUTdPjDWzp-HyXjGOU&callback=initMap" async defer></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Stevens Enterprises</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico|Rock+Salt|Ruthie|Kaushan+Script' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <style>
+      html,body { 
+  /*background-color: gray;*/
+}
+
+
+.custom_nav .navbar.navbar-fixed-top {
+    background: rgba(255, 255, 255, 0.7);
+}
+.header{
+  text-align: center;
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+/*             0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa, */
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  
+/*       background-image: url(https://github.com/Mookh01/hello-world/raw/master/oldcar-grunge.jpg);
+    background-repeat: no-repeat;
+  -webkit-background-size: cover; 
+  background-size: 400px 300px; */
+}
+
+.header h1 {
+  font-family: Pacifico;
+/*   position: relative; */
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+}
+
+  h3 {
+  position: relative;
+  margin-left: 20px;
+  text-align: center;
+}
+  h2 {
+  position: relative;
+  text-align: center;
+}
+
+button{
+ font-size: 45px;
+  background-color: #6B78B4;
+  border-radius: 10px;
+  box-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);  
+}
+
+.button {
+  color: black;
+  margin: 10px;  
+}
+
+#blocks {
+  color: black;
+  margin-top: 20px;
+  margin: 10px 10px 10px;
+  padding: 10px;
+  width: 300px;
+  background-color: #6B78B4;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+  
+        
+    </style>
+    
+    
+ <div class="container-fluid">
+       <div class="header">
+          <div id="col-sm-4">
+            <h1> Stevens Enterprises </h1>
+          </div>
+       </div>
+          <div class="row address">
+             <div class="col-sm-4">
+                 <h3> 2848 Big Rock Rd.</br>
+                      Jackson, OH. 45640-8798</h3>
+             </div>
+             <div class="col-sm-4">
+                 <h2> (740) 988-2260</h2>
+             </div>
+                 <a href="mailto:someone@example.com?Subject=Requesting%20Info" target="_top">
+                 <h3 style="color:black;">davey@stevensent.net</h3></a>
+         </div> <!-- row -->
+        </div> <!-- header-->
+ 
+<div class="row">
+  <div class="button" style="color:black;">
+    <center>
+      <button type="button">
+      <div id="services">
+        Hauling
+      </div>
+    </button>
+      <button type="button">
+      <div id="services">
+        Towing 
+      </div>
+    </button>
+      <button type="button">
+      <div id="services">
+       Auto Repair
+      </div>
+    </button>
+      <button type="button">
+      <div id="services">
+        Auto Parts
+      </div>
+    </button></center>
+  </div>
+  </div>
+
+  
+  <div class="row">
+  <center>  <div class="col-sm-4" id="blocks">
+      <h1> Charities </h1>
+      <p>  </p>
+    </div>
+
+    <div class="col-sm-4" id="blocks">
+      <h1> Car Shows</h1>
+      <p>  </p>
+     </div></center>
+  </div>
+
+
+ </div>  <!-- container-fluid -->
+</body>
+
+</html>
